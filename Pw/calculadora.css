@@ -1,0 +1,81 @@
+
+header {
+    background-color: black;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+h1{
+    color: white; 
+    font-family: Geneva;
+    text-align: center;
+    font-size: 50px;
+}
+.card{
+    background-color: dimgray;
+    width: 350px;
+    margin: 2% 2%;
+    display:flex;
+    padding: 5px;
+    flex-direction: column;
+}
+h2{
+    color: white; 
+    font-family: Geneva;
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario input, form textarea {
+    border: 0;
+    outline: 0;
+    padding:5px;
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;
+      border-radius: 5px;
+      display:flex;
+      width: 340px;
+      margin-top: 20px;
+      font-family:'open_sansregular';
+      font-size:16px;
+      background-color:rgba(255, 255, 255, 0.775);
+      
+      -moz-box-shadow: 0 1px 1px #fff(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 1px 1px #fff(0, 0, 0, 0.1);
+      box-shadow: 0 1px 1px #fff(0, 0, 0, 0.1);
+      resize: none;
+  }
+  .formulario input[type="submit"] {
+    background-color: #000000; 
+    border: none; 
+    color: white; 
+    width: 100px;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-position: center;
+  }
+  .formulario input[type="reset"] {
+    background-color: #000000; 
+    border: none; 
+    color: white; 
+    width: 100px;
+    padding: 15px 32px; 
+    text-align: center; 
+    justify-content: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-position: center;
+  }

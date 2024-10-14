@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel ="stylesheet" href= "calculadora.css">
+    <script src = "Calcula.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>
+            Sejam Bem Vindo
+        </h1>
+    </header>
+
+    <main>
+        <div class = "card">
+            <h2>Calculadora de Soma Simples</h2>
+            <form class="formulario" method="post" id="formCalculadora">
+        <div class = "form">
+            <input type="number"placeholder="Primeiro Número" required="" id = "numero1">
+            <input type="number"placeholder="Segundo Número" required="" id = "numero2">
+            <div>
+                <input type="submit" value="Calcular" style="float:right;" id="btnCalcular">
+                <input type="reset" value="Limpar"style="float:right;">
+            </div>
+           
+        </div>
+       
+            </form>
+
+            <div id="resultado" style="margin-top: 20px; font-size: 20px; color: white;"></div>
+        </div>
+    </main>
+</body>
+</html>
